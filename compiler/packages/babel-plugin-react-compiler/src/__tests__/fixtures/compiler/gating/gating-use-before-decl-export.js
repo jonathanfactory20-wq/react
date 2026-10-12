@@ -1,4 +1,3 @@
-// @gating
 import {memo} from 'react';
 import {Stringify} from 'shared-runtime';
 
