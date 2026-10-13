@@ -3762,7 +3762,7 @@ function pushStartHead(
     );
   } else {
     // This <head> is deep and is likely just an error. we emit it inline though.
-    // Validation should warn that this tag is the the wrong spot.
+    // Validation should warn that this tag is in the wrong spot.
     return pushStartGenericElement(target, props, 'head', formatContext);
   }
 }
@@ -3796,7 +3796,7 @@ function pushStartBody(
     );
   } else {
     // This <head> is deep and is likely just an error. we emit it inline though.
-    // Validation should warn that this tag is the the wrong spot.
+    // Validation should warn that this tag is in the wrong spot.
     return pushStartGenericElement(target, props, 'body', formatContext);
   }
 }
@@ -3830,7 +3830,7 @@ function pushStartHtml(
     );
   } else {
     // This <html> is deep and is likely just an error. we emit it inline though.
-    // Validation should warn that this tag is the the wrong spot.
+    // Validation should warn that this tag is in the wrong spot.
     return pushStartGenericElement(target, props, 'html', formatContext);
   }
 }
